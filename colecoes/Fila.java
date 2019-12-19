@@ -16,9 +16,9 @@ public class Fila {
 		fila.offer("Cassia");
 		
 		System.out.println(fila.peek());
-		System.out.println(fila.element());
+		System.out.println(fila.element() + "\n");
 		
-		System.out.println(fila.poll());
+		System.out.println(fila.remove());
 		System.out.println(fila.poll());
 		System.out.println(fila.poll());
 		System.out.println(fila.poll());
