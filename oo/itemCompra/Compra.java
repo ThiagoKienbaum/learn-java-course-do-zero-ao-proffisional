@@ -1,4 +1,4 @@
-package oo.composisao;
+package oo.itemCompra;
 
 import java.util.ArrayList;
 

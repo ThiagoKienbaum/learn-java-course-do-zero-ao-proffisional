@@ -1,4 +1,4 @@
-package oo.composisao;
+package oo.itemCompra;
 
 public class Item {	
 	String nome;
