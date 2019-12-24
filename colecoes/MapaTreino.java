@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-public class Mapa {
-	public static void main (String[] args) {
+public class MapaTreino {
+	public static void main(String[] args) {
 		Map<Integer, String> usuarios = new HashMap<>();
 		
 		usuarios.put(1, "Seya");
@@ -27,17 +27,17 @@ public class Mapa {
 			System.out.print("[" + chave + "]");
 		}
 		
-		System.out.println("\n");
+		System.out.println("");
 		
 		for(String valor: usuarios.values()) {
-			System.out.print("[" + valor + "]");			
+			System.out.print("[" + valor + "]");
 		}
 		
-		System.out.println("\n");
+		System.out.println("");
 		
 		for(Entry<Integer, String> usuario: usuarios.entrySet()) {
 			System.out.print("[" + usuario.getKey() + " - ");
-			System.out.print(usuario.getValue() + "]\n");			
+			System.out.print( usuario.getValue() + "]\n");
 		}
 	}
 }
