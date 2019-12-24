@@ -1,7 +1,6 @@
 package oo.composisao;
 
-public class Item {
-	
+public class Item {	
 	String nome;
 	int quantidade;
 	double preco;
