@@ -23,7 +23,7 @@ public class Compra {
 		String resultado = "";
 		
 		for(Item item: itens) {
-			resultado += item.toString();
+			resultado += item;
 		}
 		
 		return resultado;

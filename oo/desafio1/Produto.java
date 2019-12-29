@@ -10,7 +10,7 @@ public class Produto {
 	}
 	
 	public String toString() {
-		return this.nome + " - R$" + this.preco; 
+		return nome + " - R$" + preco; 
 	}
 
 }

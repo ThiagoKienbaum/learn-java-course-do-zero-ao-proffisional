@@ -27,7 +27,7 @@ public class Cliente {
 		String resultado = "Cliente: " + this.nome + "\nQtd / Descrição / Valor Un.\n";
 		
 		for(Compra compra: compras) {
-			resultado += compra.toString();
+			resultado += compra;
 		}
 		
 		resultado += "\nTotal dos pedidos: \nR$ " + obterValorTotal();

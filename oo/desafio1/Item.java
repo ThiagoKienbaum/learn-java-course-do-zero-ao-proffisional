@@ -10,7 +10,7 @@ public class Item {
 	}
 	
 	public String toString() {
-		return this.quantidade + " - " + this.produto.nome + " - R$" + this.produto.preco + "\n"; 
+		return quantidade + " - " + produto.nome + " - R$" + produto.preco + "\n"; 
 	}
 
 }
