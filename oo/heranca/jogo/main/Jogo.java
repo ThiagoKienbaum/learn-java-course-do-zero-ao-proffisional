@@ -1,4 +1,9 @@
-package oo.heranca;
+package oo.heranca.jogo.main;
+
+import oo.heranca.jogo.Direcao;
+import oo.heranca.jogo.Heroi;
+import oo.heranca.jogo.Jogador;
+import oo.heranca.jogo.Monstro;
 
 public class Jogo {
 	public static void main(String[] args) {

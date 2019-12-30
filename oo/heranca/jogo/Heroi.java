@@ -1,7 +1,7 @@
-package oo.heranca;
+package oo.heranca.jogo;
 
 public class Heroi extends Jogador {
-	boolean atacar(Jogador oponente) {
+	public boolean atacar(Jogador oponente) {
 		int deltaX = Math.abs(x - oponente.x);
 		int deltaY = Math.abs(y - oponente.y);
 		
